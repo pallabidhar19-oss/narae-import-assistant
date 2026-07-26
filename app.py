@@ -8,10 +8,25 @@ st.set_page_config(
 )
 
 st.title("🎵 Narae AI")
-st.subheader("K-Entertainment Merchandise Import Assistant")
 
-st.write(
-    "Analyze K-pop merchandise for customs classification, import duties, shipping documentation, and logistics guidance."
+st.markdown("### K-Entertainment Merchandise Import Assistant")
+
+st.info(
+    """
+Analyze K-pop merchandise using AI.
+
+This prototype estimates:
+
+✅ HS Classification
+
+✅ Import Duty
+
+✅ Required Documents
+
+✅ Customs Risks
+
+Built as the first prototype of **Narae**, an AI logistics platform for the global entertainment industry.
+"""
 )
 
 product = st.text_input(
