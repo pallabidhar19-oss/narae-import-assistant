@@ -47,9 +47,11 @@ country = st.selectbox(
     ]
 )
 
-shipment_value = st.text_input(
-    "Shipment Value (Optional)",
-    placeholder="$100"
+shipment_value = st.number_input(
+    "Shipment Value (USD)",
+    min_value=0.0,
+    value=100.0,
+    step=10.0
 )
 
 if st.button("Analyze Shipment"):
