@@ -107,4 +107,6 @@ Use headings and bullet points.
 
     st.success("✅ Analysis Complete")
 
-    st.markdown(response.choices[0].message.content)
+    st.markdown("## 📋 AI Import Report")
+
+st.markdown(response.choices[0].message.content)
