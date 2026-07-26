@@ -105,6 +105,6 @@ Use headings and bullet points.
             ]
         )
 
-    st.success("Analysis Complete")
+    st.success("✅ Analysis Complete")
 
     st.markdown(response.choices[0].message.content)
