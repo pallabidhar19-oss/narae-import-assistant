@@ -105,8 +105,8 @@ Use headings and bullet points.
             ]
         )
 
-    st.success("✅ Analysis Complete")
+        st.success("✅ Analysis Complete")
 
-    st.markdown("## 📋 AI Import Report")
+        st.markdown("## 📋 AI Import Report")
 
-st.markdown(response.choices[0].message.content)
+        st.markdown(response.choices[0].message.content)
